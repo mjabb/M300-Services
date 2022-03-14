@@ -25,13 +25,13 @@ Eine Datenbank kann über ein Web-Frontend angesprochen werden mittels Admirer
 Vagrant 2.2.19 und VirtualBox 6.1 Umgebung mit Hostonly- und NAT-Netzwerkschnittstellen auf einem Windows Host:
 
 - Webserver: web-srv-01
- - _Apache2 webserver_
- - _IP & Port 192.168.2.100:80_
- - _NAT 8080 (für den Client Zugriff)_
+ - _Apache2 webserver
+ - _IP & Port 192.168.2.100:80
+ - _NAT 8080 (für den Client Zugriff)
 
 - Datenbankserver: db-srv-01
- - _MySQL DB_
- - _IP & Port 192.168.2.99:3306_
+ - _MySQL DB
+ - _IP & Port 192.168.2.99:3306
 
 ### 20 Codebeschreib
 
