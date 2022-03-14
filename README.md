@@ -16,9 +16,9 @@ Eine Datenbank kann über ein Web-Frontend angesprochen werden mittels Admirer
 
 ### Inhaltsverzeichnis
 
-* [10 Umgebung](10-Umgebung/)
-* [20 Codebeschreib](20-Codebeschreib/)
-* [30 Fazit](30-Fazit/)
+* 10 Umgebung
+* 20 Codebeschreib
+* 30 Fazit
 
 ### 10 Umgebung
 
