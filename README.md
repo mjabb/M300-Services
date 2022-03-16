@@ -40,14 +40,20 @@ Vagrant 2.2.19 und VirtualBox 6.1 Umgebung mit Hostonly- und NAT-Netzwerkschnitt
 ### 20 Codebeschreib
 - Webserver aufbauen:
   - Folgende Prerequisites mussen installiert werden: 
-    - debconf-utilsapache2
-    - nmap
-    - php
-    - libapache2-mod-php
-    - php-curl
-    - php-cli
-    - php-mysql
-    - php-gd
-    - mysql-client 
+<tab>    | <tab>
+--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**debconf-utilsapache2**   | Konfigurieren und betreiben von PCs. Servern und Peripherie (Multiusersysteme) Erfahrung im Aufbau von lokalen Netzwerken
+**nmap**        | Konfigurieren und betreiben von PCs. Servern und Peripherie (Multiusersysteme) Erfahrung im Aufbau von lokalen Netzwerken
+**php**        | Konfigurieren und betreiben von PCs. Servern und Peripherie (Multiusersysteme) Erfahrung im Aufbau von lokalen Netzwerken
+**libapache2-mod-php** | Konfigurieren und betreiben von PCs. Servern und Peripherie (Multiusersysteme) Erfahrung im Aufbau von lokalen Netzwerken
+**php-curl** | Konfigurieren und betreiben von PCs. Servern und Peripherie (Multiusersysteme) Erfahrung im Aufbau von lokalen Netzwerken
+**php-cli** | Konfigurieren und betreiben von PCs. Servern und Peripherie (Multiusersysteme) Erfahrung im Aufbau von lokalen Netzwerken
+**php-mysql** | Konfigurieren und betreiben von PCs. Servern und Peripherie (Multiusersysteme) Erfahrung im Aufbau von lokalen Netzwerken
+**php-gd** | Konfigurieren und betreiben von PCs. Servern und Peripherie (Multiusersysteme) Erfahrung im Aufbau von lokalen Netzwerken
+**mysql-client** | Konfigurieren und betreiben von PCs. Servern und Peripherie (Multiusersysteme) Erfahrung im Aufbau von lokalen Netzwerken
+  
   - Als MySQL Client muss noch adminer installiert werden.
   - Fixer DNS Eintrag für den DB Server im Hosts ergänzen.
+
+- Datenbank Server aufbauen:
+  - Das db.sh Script wird ausgeführt
