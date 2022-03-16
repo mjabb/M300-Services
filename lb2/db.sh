@@ -1,7 +1,4 @@
 #!/bin/bash
-#
-#	Datenbank installieren und Konfigurieren
-#
 
 # root Password setzen, damit kein Dialog erscheint und die Installation haengt!
 sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password Passw0rd!'
