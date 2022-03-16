@@ -43,17 +43,17 @@ Vagrant 2.2.19 und VirtualBox 6.1 Umgebung mit Hostonly- und NAT-Netzwerkschnitt
 
 <tab>    | <tab>
 --------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------
-**debconf-utilsapache2**   | Konfigurieren und betreiben von PCs. Servern und Peripherie (Multiusersysteme) Erfahrung im Aufbau von lokalen Netzwerken
-**nmap**        | Konfigurieren und betreiben von PCs. Servern und Peripherie (Multiusersysteme) Erfahrung im Aufbau von lokalen Netzwerken
-**php**        | Konfigurieren und betreiben von PCs. Servern und Peripherie (Multiusersysteme) Erfahrung im Aufbau von lokalen Netzwerken
-**libapache2-mod-php** | Konfigurieren und betreiben von PCs. Servern und Peripherie (Multiusersysteme) Erfahrung im Aufbau von lokalen Netzwerken
-**php-curl** | Konfigurieren und betreiben von PCs. Servern und Peripherie (Multiusersysteme) Erfahrung im Aufbau von lokalen Netzwerken
-**php-cli** | Konfigurieren und betreiben von PCs. Servern und Peripherie (Multiusersysteme) Erfahrung im Aufbau von lokalen Netzwerken
-**php-mysql** | Konfigurieren und betreiben von PCs. Servern und Peripherie (Multiusersysteme) Erfahrung im Aufbau von lokalen Netzwerken
-**php-gd** | Konfigurieren und betreiben von PCs. Servern und Peripherie (Multiusersysteme) Erfahrung im Aufbau von lokalen Netzwerken
-**mysql-client** | Konfigurieren und betreiben von PCs. Servern und Peripherie (Multiusersysteme) Erfahrung im Aufbau von lokalen Netzwerken
+**debconf-utilsapache2**   | Hilfsprogramme für Webserver und enthält einige, für jeden Webserver nützliche, Zusatzprogramme. 
+**nmap**        | Ist ein Werkzeug um ein Netzwerk zu erkundigen mittels Ping, Portscaner und TCP/IP Fingerprinting.
+**php**        | Serverseitige, in HTML eingebettete Mehrzweck-Skriptsprache.
+**libapache2-mod-php** | Dieses Paket stellt des PHP-Modul für den Webserver Apache 2 bereit.
+**php-curl** | Dieses Paket stellt ein CURL-Modul für PHP bereit.
+**php-cli** | Dieses Paket stellt den Kommandozeilen-Interpreter PHP zur Verfügung, der für das Testen von PHP-Skripten in einer Shell oder auch für die Erledigung von Shell-Skripting-Aufgaben verwendet werden kann.
+**php-mysql** | Dieses Paket stellt ein MySQL-Modul für PHP bereit.
+**php-gd** | Dieses Paket stellt ein GD-Modul für PHP bereit.
+**mysql-client** | MySQL database client binaries
   
-  - Als MySQL Client muss noch adminer installiert werden.
+  - Als MySQL Client muss noch adminer installiert werden. Dies ist ein voll funktionsfähiges Datenbankverwaltungstool, das in PHP geschrieben ist.
   - Fixer DNS Eintrag für den DB Server im Hosts ergänzen.
 
 - Datenbank Server aufbauen:
