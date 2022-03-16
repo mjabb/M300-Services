@@ -38,7 +38,7 @@ Vagrant 2.2.19 und VirtualBox 6.1 Umgebung mit Hostonly- und NAT-Netzwerkschnitt
   - **_IP & Port 192.168.2.99:3306_**
 
 # 20 Codebeschreib
-- Webserver aufbauen:
+- **Webserver aufbauen:**
   - Folgende Prerequisites mussen installiert werden: debconf-utilsapache2, namp, php, libapache2-mod-php, php-curl, php-cli, php-mysql, php-gd, mysql-client.
   - Als MySQL Client muss noch adminer installiert werden. Dies ist ein voll funktionsfähiges Datenbankverwaltungstool, das in PHP geschrieben ist.
   - Fixer DNS Eintrag für den DB Server im Hosts ergänzen.
@@ -56,7 +56,7 @@ Vagrant 2.2.19 und VirtualBox 6.1 Umgebung mit Hostonly- und NAT-Netzwerkschnitt
 **php-gd** | Dieses Paket stellt ein GD-Modul für PHP bereit.
 **mysql-client** | MySQL database client binaries
 
-- Datenbank Server aufbauen:
+- **Datenbank Server aufbauen:**
   - Das db.sh Script wird ausgeführt
     - Root Password setzen
     - Das Paket mysql-server installieren
