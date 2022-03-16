@@ -16,11 +16,11 @@ Eine Datenbank kann über ein Web-Frontend angesprochen werden mittels Admirer
 
 ### Inhaltsverzeichnis
 
-* [10 Umgebung](###10 Umgebung)
+* **[10 Umgebung](#10Umgebung)**
 * **20 Codebeschreib**
 * **30 Fazit**
 
-### 10 Umgebung
+# 10 Umgebung
 
 Vagrant 2.2.19 und VirtualBox 6.1 Umgebung mit Hostonly- und NAT-Netzwerkschnittstellen auf einem Windows Host:
 
@@ -37,7 +37,7 @@ Vagrant 2.2.19 und VirtualBox 6.1 Umgebung mit Hostonly- und NAT-Netzwerkschnitt
   - **_MySQL DB_**
   - **_IP & Port 192.168.2.99:3306_**
 
-### 20 Codebeschreib
+# 20 Codebeschreib
 - Webserver aufbauen:
   - Folgende Prerequisites mussen installiert werden: 
 
