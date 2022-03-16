@@ -65,3 +65,9 @@ Vagrant 2.2.19 und VirtualBox 6.1 Umgebung mit Hostonly- und NAT-Netzwerkschnitt
     - Konfiguration abschliessen
 
  # 30 Fazit
+  
+Das MySQL Admirer GUI ist nun via http://localhost:8080/adminer.php per User: root und Passwort: admin erreichbar.
+
+Es gibt noch die Möglichkeit die VM zu wechseln in der Bash:
+- vagrant ssh **database**
+- vagrant ssh **web**
