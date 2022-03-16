@@ -40,8 +40,9 @@ Vagrant 2.2.19 und VirtualBox 6.1 Umgebung mit Hostonly- und NAT-Netzwerkschnitt
 ### 20 Codebeschreib
 - Webserver aufbauen:
   - Folgende Prerequisites mussen installiert werden: 
+
 <tab>    | <tab>
---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------
 **debconf-utilsapache2**   | Konfigurieren und betreiben von PCs. Servern und Peripherie (Multiusersysteme) Erfahrung im Aufbau von lokalen Netzwerken
 **nmap**        | Konfigurieren und betreiben von PCs. Servern und Peripherie (Multiusersysteme) Erfahrung im Aufbau von lokalen Netzwerken
 **php**        | Konfigurieren und betreiben von PCs. Servern und Peripherie (Multiusersysteme) Erfahrung im Aufbau von lokalen Netzwerken
