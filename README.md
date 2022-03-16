@@ -17,8 +17,8 @@ Eine Datenbank kann über ein Web-Frontend angesprochen werden mittels Admirer
 ### Inhaltsverzeichnis
 
 * **[10 Umgebung](#10-Umgebung)**
-* **20 Codebeschreib**
-* **30 Fazit**
+* **[20 Codebeschreib](20-Codebeschreib)**
+* **[30 Fazit](30-Fazit)**
 
 # 10 Umgebung
 
@@ -58,3 +58,5 @@ Vagrant 2.2.19 und VirtualBox 6.1 Umgebung mit Hostonly- und NAT-Netzwerkschnitt
 
 - Datenbank Server aufbauen:
   - Das db.sh Script wird ausgeführt
+
+  # 30 Fazit
