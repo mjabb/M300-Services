@@ -53,8 +53,8 @@ Vagrant 2.2.19 und VirtualBox 6.1 Umgebung mit Hostonly- und NAT-Netzwerkschnitt
 **php-gd** | Dieses Paket stellt ein GD-Modul für PHP bereit.
 **mysql-client** | MySQL database client binaries
   
-  - Als MySQL Client muss noch adminer installiert werden. Dies ist ein voll funktionsfähiges Datenbankverwaltungstool, das in PHP geschrieben ist.
-  - Fixer DNS Eintrag für den DB Server im Hosts ergänzen.
+   - Als MySQL Client muss noch adminer installiert werden. Dies ist ein voll funktionsfähiges Datenbankverwaltungstool, das in PHP geschrieben ist.
+   - Fixer DNS Eintrag für den DB Server im Hosts ergänzen.
 
 - Datenbank Server aufbauen:
   - Das db.sh Script wird ausgeführt
