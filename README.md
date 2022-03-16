@@ -43,6 +43,7 @@ Vagrant 2.2.19 und VirtualBox 6.1 Umgebung mit Hostonly- und NAT-Netzwerkschnitt
   - Als MySQL Client muss noch adminer installiert werden. Dies ist ein voll funktionsfähiges Datenbankverwaltungstool, das in PHP geschrieben ist.
   - Fixer DNS Eintrag für den DB Server im Hosts ergänzen.
   - Deklaration der benutzen Pakete:
+
 <tab>    | <tab>
 --------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------
 **debconf-utilsapache2**   | Hilfsprogramme für Webserver und enthält einige, für jeden Webserver nützliche, Zusatzprogramme. 
