@@ -2,7 +2,7 @@
 
 # Plattformübergreifende Dienste in ein Netzwerk integrieren
 
-![mmdblayout](images/mmdblayout.png)
+![mmdblayout](mmdblayout.png)
 
 #### Übersicht des Projekts
 
