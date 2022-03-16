@@ -58,5 +58,10 @@ Vagrant 2.2.19 und VirtualBox 6.1 Umgebung mit Hostonly- und NAT-Netzwerkschnitt
 
 - Datenbank Server aufbauen:
   - Das db.sh Script wird ausgeführt
+    - Root Password setzen
+    - Das Paket mysql-server installieren
+    - Den MySQL Port öffnen
+    - Der User für den Remote Zugriff einrichten mit einschränkung auf dem Webhost
+    - Konfiguration abschliessen
 
  # 30 Fazit
