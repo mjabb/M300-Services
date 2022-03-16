@@ -1,17 +1,15 @@
 # M300-Services
-### Plattformübergreifende Dienste in ein Netzwerk integrieren
-
-
+#### Plattformübergreifende Dienste in ein Netzwerk integrieren
 # Multi Machine Datebase Zugriff
 
 
 ![mmdblayout](mmdblayout.png)
 
-#### Übersicht des Projekts
+# Übersicht des Projekts
 
 Eine Datenbank kann über ein Web-Frontend angesprochen werden mittels Admirer
 
-#### Voraussetzungen
+### Voraussetzungen
 
 * MySQL Datenbankserver 
 * Apache2 Webserver
@@ -23,7 +21,7 @@ Eine Datenbank kann über ein Web-Frontend angesprochen werden mittels Admirer
 * **[20 Codebeschreib](#20-Codebeschreib)**
 * **[30 Fazit](#30-Fazit)**
 
-# 10 Umgebung
+## 10 Umgebung
 
 Vagrant 2.2.19 und VirtualBox 6.1 Umgebung mit Hostonly- und NAT-Netzwerkschnittstellen auf einem Windows Host:
 
@@ -40,7 +38,7 @@ Vagrant 2.2.19 und VirtualBox 6.1 Umgebung mit Hostonly- und NAT-Netzwerkschnitt
   - _MySQL DB_
   - _IP & Port 192.168.2.99:3306_
 
-# 20 Codebeschreib
+## 20 Codebeschreib
 - **Webserver aufbauen:**
   - Folgende Prerequisites mussen installiert werden: debconf-utilsapache2, namp, php, libapache2-mod-php, php-curl, php-cli, php-mysql, php-gd, mysql-client.
   - Als MySQL Client muss noch adminer installiert werden. Dies ist ein voll funktionsfähiges Datenbankverwaltungstool, das in PHP geschrieben ist.
@@ -67,7 +65,7 @@ Vagrant 2.2.19 und VirtualBox 6.1 Umgebung mit Hostonly- und NAT-Netzwerkschnitt
     - Der User für den Remote Zugriff einrichten mit einschränkung auf dem Webhost
     - Konfiguration abschliessen
 
- # 30 Fazit
+ ## 30 Fazit
   
 Das MySQL Admirer GUI ist nun via http://localhost:8080/adminer.php per User: root und Passwort: admin erreichbar.
 
