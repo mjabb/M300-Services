@@ -1,7 +1,7 @@
 ## M300-Services - Plattformübergreifende Dienste in ein Netzwerk integrieren
 # Multi Machine Datebase Zugriff
 
-![mmdblayout](lb2/images/mmdblayout.png)
+![mmdblayout](images/mmdblayout.png)
 
 # Übersicht des Projekts
 
