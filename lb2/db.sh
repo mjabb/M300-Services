@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # root Password setzen, damit kein Dialog erscheint und die Installation haengt!
-sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password Passw0rd!'
-sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password Passw0rd!'
+sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password Passw0rd5'
+sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password Passw0rd5'
 
 # Installation
 sudo apt-get install -y mysql-server
@@ -11,10 +11,15 @@ sudo apt-get install -y mysql-server
 sudo sed -i -e"s/^bind-address\s*=\s*127.0.0.1/bind-address = 0.0.0.0/" /etc/mysql/mysql.conf.d/mysqld.cnf
 
 # User fuer Remote Zugriff einrichten - aber nur fuer Host web 192.168.1.99
-mysql -uroot -pPassw0rd! <<%EOF%
+mysql -uroot -pPassw0rd5 <<%EOF%
 	CREATE USER 'root'@'192.168.2.99' IDENTIFIED BY 'admin';
 	GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.2.99';
 	FLUSH PRIVILEGES;
+	CREATE DATABASE M300;
+	USE M300;
+	CREATE TABLE M300(title VARCHAR(50), Beschreibung VARCHAR(50));
+	INSERT INTO M300 VALUE ("M300 Services","Plattformuebergreifende Dienste");
+	quit
 %EOF%
 
 # Restart fuer Konfigurationsaenderung
