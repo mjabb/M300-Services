@@ -17,7 +17,7 @@ mysql -uroot -pPassw0rd5 <<%EOF%
 	FLUSH PRIVILEGES;
 	CREATE DATABASE M300;
 	USE M300;
-	CREATE TABLE M300(title VARCHAR(50), Beschreibung VARCHAR(50));
+	CREATE TABLE M300(Titel VARCHAR(50), Beschreibung VARCHAR(50));
 	INSERT INTO M300 VALUE ("M300 Services","Plattformuebergreifende Dienste");
 	quit
 %EOF%
