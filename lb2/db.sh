@@ -10,10 +10,10 @@ sudo apt-get install -y mysql-server
 # MySQL Port oeffnen
 sudo sed -i -e"s/^bind-address\s*=\s*127.0.0.1/bind-address = 0.0.0.0/" /etc/mysql/mysql.conf.d/mysqld.cnf
 
-# User fuer Remote Zugriff einrichten - aber nur fuer Host web 192.168.1.99
+# User fuer Remote Zugriff einrichten - aber nur fuer Host web 192.168.2.100
 mysql -uroot -pPassw0rd5 <<%EOF%
-	CREATE USER 'root'@'192.168.2.99' IDENTIFIED BY 'admin';
-	GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.2.99';
+	CREATE USER 'root'@'localhost' IDENTIFIED BY 'Passw0rd5';
+	GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost';
 	FLUSH PRIVILEGES;
 	CREATE DATABASE M300;
 	USE M300;
