@@ -66,6 +66,7 @@ Vagrant 2.2.19 und VirtualBox 6.1 Umgebung mit Hostonly- und NAT-Netzwerkschnitt
 
 ## **Spezieller Code**
 `sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password admin'`
+- Mit diesem Code kann das Passwort für den Root Benutzer der DB ohne Interaktion gesetzt werden.
 - debconf-set-selections kann verwendet werden, um die Debconf-Datenbank vorab mit Antworten zu füllen oder um Antworten in der Datenbank zu ändern. Jede Frage wird als gesehen markiert, um zu verhindern, dass Debconf die Frage interaktiv stellt. Sie liest aus einer Datei, wenn ein Dateiname angegeben ist, ansonsten aus stdin.
 
   
