@@ -40,11 +40,10 @@ Vagrant 2.2.19 und VirtualBox 6.1 Umgebung mit Hostonly- und NAT-Netzwerkschnitt
 ## 20 Codebeschreib
 - **Webserver aufbauen:**
   - Folgende Prerequisites mussen installiert werden: debconf-utilsapache2, namp, php, libapache2-mod-php, php-curl, php-cli, php-mysql, php-gd, mysql-client.
-    - `sudo apt-get update`
-      `sudo apt-get -y install debconf-utils apache2 nmap`
-		   sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password admin'
-		   sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password admin'
-		   sudo apt-get -y install php libapache2-mod-php php-curl php-cli php-mysql php-gd mysql-client`  
+	`sudo apt-get -y install debconf-utils apache2 nmap`
+	`sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password admin'`
+	`sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password_again password admin'`
+	`sudo apt-get -y install php libapache2-mod-php php-curl php-cli php-mysql php-gd mysql-client`  
 
   - Als MySQL Client muss noch adminer installiert werden. Dies ist ein voll funktionsfähiges Datenbankverwaltungstool, das in PHP geschrieben ist.
   - Fixer DNS Eintrag für den DB Server im Hosts ergänzen.
