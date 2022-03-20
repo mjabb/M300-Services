@@ -63,11 +63,19 @@ Vagrant 2.2.19 und VirtualBox 6.1 Umgebung mit Hostonly- und NAT-Netzwerkschnitt
 - **Datenbank Server aufbauen:**
   - Das db.sh Script wird ausgeführt
     - Root Password setzen
+      - `sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password Passw0rd5'`
     - Das Paket mysql-server installieren
+  	  - `sudo apt-get install -y mysql-server`
     - Den MySQL Port öffnen
     - Der User für den Remote Zugriff einrichten mit einschränkung auf dem Webhost
-    - Konfiguration abschliessen
-
+      - `CREATE USER 'root'@'192.168.2.100' IDENTIFIED BY 'Passw0rd5';`
+      - `GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.2.100' IDENTIFIED BY 'Passw0rd5' WITH GRANT OPTION;`
+    - New Datenbank und Tabelle erstellen und die mit zwei Strings befüllen.
+	    - `CREATE DATABASE M300;`
+	    - `USE M300;`
+	    - `CREATE TABLE M300(Titel VARCHAR(50), Beschreibung VARCHAR(50));`
+	    - `INSERT INTO M300 VALUE ("M300 Services","Plattformuebergreifende Dienste");`
+  
 ## **Spezieller Code**
 `sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password admin'`
 - Mit diesem Code kann das Passwort für den Root Benutzer der DB ohne Interaktion gesetzt werden.
