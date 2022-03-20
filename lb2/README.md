@@ -65,8 +65,9 @@ Vagrant 2.2.19 und VirtualBox 6.1 Umgebung mit Hostonly- und NAT-Netzwerkschnitt
     - Root Password setzen
       - `sudo debconf-set-selections <<< 'mysql-server mysql-server/root_password password Passw0rd5'`
     - Das Paket mysql-server installieren
-  	  - `sudo apt-get install -y mysql-server`
+      - `sudo apt-get install -y mysql-server`
     - Den MySQL Port öffnen
+      - `sudo sed -i -e"s/^bind-address\s*=\s*127.0.0.1/bind-address = 0.0.0.0/" /etc/mysql/mysql.conf.d/mysqld.cnf`
     - Der User für den Remote Zugriff einrichten mit einschränkung auf dem Webhost
       - `CREATE USER 'root'@'192.168.2.100' IDENTIFIED BY 'Passw0rd5';`
       - `GRANT ALL PRIVILEGES ON *.* TO 'root'@'192.168.2.100' IDENTIFIED BY 'Passw0rd5' WITH GRANT OPTION;`
