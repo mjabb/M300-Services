@@ -79,7 +79,9 @@ Das MySQL Admirer GUI ist nun via http://localhost:8080/adminer.php per User: ro
 - Username:  root
 - Password:  Passw0rd5
 - Database:  M300
-
+                                 
+![admirergui](images/admirer.png)
+                                 
  ### Einloggen über SSH
 Es gibt noch die Möglichkeit die VM zu wechseln in der Bash:
 - vagrant ssh **database**
