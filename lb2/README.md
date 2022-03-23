@@ -6,7 +6,7 @@
 # Übersicht des Projekts
 
 ### Zweck und Funktion
-Die IaC wird automatisch über Vagrant up gestartet und gebauet. Es stellt eine Datenbank die über ein Web-Frontend angesprochen werden kann mittels Admirer GUI. Mittels dieser Methode können DBs schnell, flexibel und customizable.
+Die IaC wird automatisch über Vagrant up gestartet und gebauet. Es stellt eine Datenbank die über ein Web-Frontend angesprochen werden kann mittels Adminer GUI. Mittels dieser Methode können DBs schnell, flexibel und customizable.
 
 ### Voraussetzungen
 
@@ -86,7 +86,7 @@ Vagrant 2.2.19 und VirtualBox 6.1 Umgebung mit Hostonly- und NAT-Netzwerkschnitt
  ## 30 Fazit
   
 ### Einloggen über das Web
-Das MySQL Admirer GUI ist nun via http://localhost:8080/adminer.php per User: root und Passwort: admin erreichbar.
+Das MySQL Adminer GUI ist nun via http://localhost:8080/adminer.php per User: root und Passwort: admin erreichbar.
 - Database:  MySQL
 - Server:    db-srv-01
 - Username:  root
